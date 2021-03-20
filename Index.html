@@ -1,0 +1,100 @@
+<head>
+    <title>Raw Food Calculator</title>
+    <link rel="stylesheet" href="Css/Styles.css"/>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-start">
+            <a href="/index.html">Home</a>
+            <a href="/pets.html">My Pets</a>
+        </div>
+        <div
+            class="navbar-end"><!-- <a href="/profile.html">My Profile</a> -->
+        </div>
+    </nav>
+    <div id="app" class="main" v-cloak>
+        <nav>
+            <div class="navbar-start">
+                <div class="animal-selector">
+                    <label>Animal :
+                    </label>
+                    <div v-if="animals != null && animals.length > 0">
+                        <select id="CurrentAnimal" v-on:change="onSelectedAnimalChange">
+                            <option v-for="animal in animals" v-bind:value="animal.name">{{animal.name}}</option>
+                        </select>
+                        <button class="button" v-on:click="onCreateAnimalStart">+ Animal</button>
+                    </div>
+                    
+                    <button v-else="v-else" class="button" v-on:click="onCreateAnimalStart">+ Animal</button>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="unit-selector">
+                    <label>Unit Type :
+                    </label>
+                    <select v-model="selectedUnit">
+                        <option v-for="unit in units" v-bind:value="unit.value">
+                            {{ unit.name }}
+                        </option>
+                    </select>
+                    <div v-if="debugging">
+                        <span>Selected:
+                            {{ selectedUnit }}</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="AnimalInfo">
+            <h3>Animal Info</h3>
+            <p>{{selectedAnimal.name}}</p>
+        </div>
+        <div id="AnimalFeedingInfo">
+            <h3>Food Info</h3>
+        </div>
+        <div id="ModalAnimalForm" class="form modal" v-if="showCreateAnimalForm">
+            <h2>Create New Animal</h2>
+            <div class="form-group">
+                <label class="required">Name</label>
+                <input type="text" placeholder="Animal Name" required="required" v-model="creatingAnimal.name"/>
+            </div>
+
+            <div class="form-group">
+                <label class="required">Age</label>
+                <input type="number" placeholder="Animal Age" required="required"/>
+            </div>
+
+            <div class="form-group">
+                <label class="required">Sex</label>
+                <div class="radio-options">
+                    <p>Male<input type="radio" name="animalSex" value="Male" checked="checked" v-model="creatingAnimal.sex"></p>
+                    <p>Female<input type="radio" name="animalSex" value="Female" v-model="creatingAnimal.sex"></p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="required">Weight</label>
+                <input type="number" placeholder="Animal Weight" required="required" v-model="creatingAnimal.age"/><i>&nbsp;{{selectedUnit}}</i>
+            </div>
+            
+            <div class="form-group">
+                <label class="required">Type</label>
+                <select v-model="creatingAnimal.type">
+                    <option v-for="type in animalTypes" v-bind:value="type.value">
+                        {{ type.name }}
+                    </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button class="button" v-on:click="onCreateAnimalSave">Save</button>
+                <br>
+                    <a href="#" v-on:click="onCreateAnimalCancel">Cancel</a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script type="text/javascript" src="/Scripts/Main.js"></script>
+</footer>

@@ -1,0 +1,17 @@
+body {font-family:Arial, Helvetica, sans-serif; font-size:14px; background:#ddd; max-width:760px; margin:0 auto;}
+
+body nav{display:flex; align-items: center; justify-content: space-between; padding:15px; font-size:18px;}
+body nav a {color:#000; text-decoration:none; padding-left:15px; padding-right:15px;}
+body nav a:hover {color:#fff; background:#666;}
+
+[v-cloak] {display:none;}
+
+.main {background:#fff; padding:15px;}
+.radio-options {display:flex;}
+.required::after{
+    content:" *";
+    color:red;
+}
+
+.form-group {width:100%; display:flex;}
+.form-group label { display:block; width:100px;}

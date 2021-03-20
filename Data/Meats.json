@@ -1,0 +1,634 @@
+[
+    {
+      "Id": 1,
+      "Food Item": "Beef – Heart",
+      "Category": "Beef",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 2,
+      "Food Item": "Beef – Kidney",
+      "Category": "Beef",
+      "Meat %": 0,
+      "Bone %": 0,
+      "Organ %": 100
+    },
+    {
+      "Id": 3,
+      "Food Item": "Beef – Liver",
+      "Category": "Beef",
+      "Meat %": 0,
+      "Bone %": 0,
+      "Organ %": 100
+    },
+    {
+      "Id": 4,
+      "Food Item": "Beef – Ribs",
+      "Category": "Beef",
+      "Meat %": 48,
+      "Bone %": 52,
+      "Organ %": 0
+    },
+    {
+      "Id": 5,
+      "Food Item": "Beef – Steak",
+      "Category": "Beef",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 6,
+      "Food Item": "Beef – Trachea",
+      "Category": "Beef",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 7,
+      "Food Item": "Bone 100%",
+      "Category": "Bone",
+      "Meat %": 0,
+      "Bone %": 100,
+      "Organ %": 0
+    },
+    {
+      "Id": 8,
+      "Food Item": "Bone Meal",
+      "Category": "Bone",
+      "Meat %": 0,
+      "Bone %": 416.667,
+      "Organ %": 0
+    },
+    {
+      "Id": 9,
+      "Food Item": "Chicken – Back",
+      "Category": "Chicken",
+      "Meat %": 50,
+      "Bone %": 50,
+      "Organ %": 0
+    },
+    {
+      "Id": 10,
+      "Food Item": "Chicken – Breast boneless",
+      "Category": "Chicken",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 11,
+      "Food Item": "Chicken – Breast portion",
+      "Category": "Chicken",
+      "Meat %": 80,
+      "Bone %": 20,
+      "Organ %": 0
+    },
+    {
+      "Id": 12,
+      "Food Item": "Chicken – Drumstick",
+      "Category": "Chicken",
+      "Meat %": 66,
+      "Bone %": 33,
+      "Organ %": 0
+    },
+    {
+      "Id": 13,
+      "Food Item": "Chicken – Feet",
+      "Category": "Chicken",
+      "Meat %": 40,
+      "Bone %": 60,
+      "Organ %": 0
+    },
+    {
+      "Id": 14,
+      "Food Item": "Chicken – Frame",
+      "Category": "Chicken",
+      "Meat %": 56,
+      "Bone %": 44,
+      "Organ %": 0
+    },
+    {
+      "Id": 15,
+      "Food Item": "Chicken – Gizzard",
+      "Category": "Chicken",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 16,
+      "Food Item": "Chicken – Heart",
+      "Category": "Chicken",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 17,
+      "Food Item": "Chicken – Leg quarter",
+      "Category": "Chicken",
+      "Meat %": 73,
+      "Bone %": 27,
+      "Organ %": 0
+    },
+    {
+      "Id": 18,
+      "Food Item": "Chicken – Liver",
+      "Category": "Chicken",
+      "Meat %": 0,
+      "Bone %": 0,
+      "Organ %": 100
+    },
+    {
+      "Id": 19,
+      "Food Item": "Chicken – Neck skinless",
+      "Category": "Chicken",
+      "Meat %": 25,
+      "Bone %": 75,
+      "Organ %": 0
+    },
+    {
+      "Id": 20,
+      "Food Item": "Chicken – Neck with skin",
+      "Category": "Chicken",
+      "Meat %": 64,
+      "Bone %": 36,
+      "Organ %": 0
+    },
+    {
+      "Id": 21,
+      "Food Item": "Chicken – Stripped 100% bone",
+      "Category": "Chicken",
+      "Meat %": 0,
+      "Bone %": 100,
+      "Organ %": 0
+    },
+    {
+      "Id": 22,
+      "Food Item": "Chicken Thigh Boneless",
+      "Category": "Chicken",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 23,
+      "Food Item": "Chicken Thigh Bone In",
+      "Category": "Chicken",
+      "Meat %": 79,
+      "Bone %": 21,
+      "Organ %": 0
+    },
+    {
+      "Id": 24,
+      "Food Item": "Chicken Whole De-Bone Leg and Wings",
+      "Category": "Chicken",
+      "Meat %": 78,
+      "Bone %": 22,
+      "Organ %": 0
+    },
+    {
+      "Id": 25,
+      "Food Item": "Chicken – Whole oven ready",
+      "Category": "Chicken",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 26,
+      "Food Item": "Chicken – Wing",
+      "Category": "Chicken",
+      "Meat %": 54,
+      "Bone %": 46,
+      "Organ %": 0
+    },
+    {
+      "Id": 27,
+      "Food Item": "Cornish Game Hen – Whole",
+      "Category": "Game Hen",
+      "Meat %": 61,
+      "Bone %": 39,
+      "Organ %": 0
+    },
+    {
+      "Id": 28,
+      "Food Item": "Duck – Feet",
+      "Category": "Duck",
+      "Meat %": 40,
+      "Bone %": 60,
+      "Organ %": 0
+    },
+    {
+      "Id": 29,
+      "Food Item": "Duck – Frame",
+      "Category": "Duck",
+      "Meat %": 25,
+      "Bone %": 75,
+      "Organ %": 0
+    },
+    {
+      "Id": 30,
+      "Food Item": "Duck – Head",
+      "Category": "Duck",
+      "Meat %": 25,
+      "Bone %": 75,
+      "Organ %": 0
+    },
+    {
+      "Id": 31,
+      "Food Item": "Duck – Neck",
+      "Category": "Duck",
+      "Meat %": 50,
+      "Bone %": 50,
+      "Organ %": 0
+    },
+    {
+      "Id": 32,
+      "Food Item": "Duck – Whole Domestic Oven ready Duck",
+      "Category": "Duck",
+      "Meat %": 72,
+      "Bone %": 28,
+      "Organ %": 0
+    },
+    {
+      "Id": 33,
+      "Food Item": "Duck – wild, Breast portion",
+      "Category": "Duck",
+      "Meat %": 85,
+      "Bone %": 15,
+      "Organ %": 0
+    },
+    {
+      "Id": 34,
+      "Food Item": "Duck – Wings",
+      "Category": "Duck",
+      "Meat %": 54,
+      "Bone %": 46,
+      "Organ %": 0
+    },
+    {
+      "Id": 35,
+      "Food Item": "Fish – Whole",
+      "Category": "Fish",
+      "Meat %": 80,
+      "Bone %": 10,
+      "Organ %": 10
+    },
+    {
+      "Id": 36,
+      "Food Item": "Lamb -  Heart",
+      "Category": "Lamb",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 37,
+      "Food Item": "Lamb – Arm",
+      "Category": "Lamb",
+      "Meat %": 91,
+      "Bone %": 9,
+      "Organ %": 0
+    },
+    {
+      "Id": 38,
+      "Food Item": "Lamb – Blade",
+      "Category": "Lamb",
+      "Meat %": 72,
+      "Bone %": 28,
+      "Organ %": 0
+    },
+    {
+      "Id": 39,
+      "Food Item": "Lamb – Centre Slice Leg",
+      "Category": "Lamb",
+      "Meat %": 94,
+      "Bone %": 6,
+      "Organ %": 0
+    },
+    {
+      "Id": 40,
+      "Food Item": "Lamb – Half Shank",
+      "Category": "Lamb",
+      "Meat %": 83,
+      "Bone %": 17,
+      "Organ %": 0
+    },
+    {
+      "Id": 41,
+      "Food Item": "Lamb – Kidney",
+      "Category": "Lamb",
+      "Meat %": 0,
+      "Bone %": 0,
+      "Organ %": 100
+    },
+    {
+      "Id": 42,
+      "Food Item": "Lamb – Loin",
+      "Category": "Lamb",
+      "Meat %": 72,
+      "Bone %": 28,
+      "Organ %": 0
+    },
+    {
+      "Id": 43,
+      "Food Item": "Lamb – Ribs",
+      "Category": "Lamb",
+      "Meat %": 74,
+      "Bone %": 26,
+      "Organ %": 0
+    },
+    {
+      "Id": 44,
+      "Food Item": "Lamb – Whole Shank",
+      "Category": "Lamb",
+      "Meat %": 86,
+      "Bone %": 14,
+      "Organ %": 0
+    },
+    {
+      "Id": 45,
+      "Food Item": "Minced Meat 00% Bone",
+      "Category": "Minc",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 46,
+      "Food Item": "Minced Meat 05% Bone",
+      "Category": "Minc",
+      "Meat %": 95,
+      "Bone %": 5,
+      "Organ %": 0
+    },
+    {
+      "Id": 47,
+      "Food Item": "Minced Meat 10% Bone",
+      "Category": "Minc",
+      "Meat %": 90,
+      "Bone %": 10,
+      "Organ %": 0
+    },
+    {
+      "Id": 48,
+      "Food Item": "Minced Meat 15% Bone",
+      "Category": "Minc",
+      "Meat %": 85,
+      "Bone %": 15,
+      "Organ %": 0
+    },
+    {
+      "Id": 49,
+      "Food Item": "Minced Meat 20% Bone",
+      "Category": "Minc",
+      "Meat %": 80,
+      "Bone %": 20,
+      "Organ %": 0
+    },
+    {
+      "Id": 50,
+      "Food Item": "Minced Meat 25% Bone",
+      "Category": "Minc",
+      "Meat %": 75,
+      "Bone %": 25,
+      "Organ %": 0
+    },
+    {
+      "Id": 51,
+      "Food Item": "Minced Meat 30% Bone",
+      "Category": "Minc",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 52,
+      "Food Item": "Minced Meat 35% Bone",
+      "Category": "Minc",
+      "Meat %": 65,
+      "Bone %": 35,
+      "Organ %": 0
+    },
+    {
+      "Id": 53,
+      "Food Item": "Minced Meat 40% Bone",
+      "Category": "Minc",
+      "Meat %": 60,
+      "Bone %": 40,
+      "Organ %": 0
+    },
+    {
+      "Id": 54,
+      "Food Item": "Minced Meat 45% Bone",
+      "Category": "Minc",
+      "Meat %": 55,
+      "Bone %": 45,
+      "Organ %": 0
+    },
+    {
+      "Id": 55,
+      "Food Item": "Minced Meat 50% Bone",
+      "Category": "Minc",
+      "Meat %": 50,
+      "Bone %": 50,
+      "Organ %": 0
+    },
+    {
+      "Id": 56,
+      "Food Item": "Minced Meat 55% Bone",
+      "Category": "Minc",
+      "Meat %": 45,
+      "Bone %": 55,
+      "Organ %": 0
+    },
+    {
+      "Id": 57,
+      "Food Item": "Minced Meat 60% Bone",
+      "Category": "Minc",
+      "Meat %": 40,
+      "Bone %": 60,
+      "Organ %": 0
+    },
+    {
+      "Id": 58,
+      "Food Item": "Pork – Feet",
+      "Category": "Pork",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 59,
+      "Food Item": "Pork – Loin steak",
+      "Category": "Pork",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 60,
+      "Food Item": "Pork – Ribs",
+      "Category": "Pork",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 61,
+      "Food Item": "Pork – Tails",
+      "Category": "Pork",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 62,
+      "Food Item": "Powdered Eggshell",
+      "Category": "Eggshell",
+      "Meat %": 0,
+      "Bone %": 2500,
+      "Organ %": 0
+    },
+    {
+      "Id": 63,
+      "Food Item": "Quail – Whole Oven Ready",
+      "Category": "Quail",
+      "Meat %": 73,
+      "Bone %": 27,
+      "Organ %": 0
+    },
+    {
+      "Id": 64,
+      "Food Item": "Rabbit – Whole Rabbit (Dressed)",
+      "Category": "Rabbit",
+      "Meat %": 70,
+      "Bone %": 30,
+      "Organ %": 0
+    },
+    {
+      "Id": 65,
+      "Food Item": "Turkey – Back",
+      "Category": "Turkey",
+      "Meat %": 59,
+      "Bone %": 41,
+      "Organ %": 0
+    },
+    {
+      "Id": 66,
+      "Food Item": "Turkey – Breast",
+      "Category": "Turkey",
+      "Meat %": 90,
+      "Bone %": 10,
+      "Organ %": 0
+    },
+    {
+      "Id": 67,
+      "Food Item": "Turkey – Drumstick",
+      "Category": "Turkey",
+      "Meat %": 79,
+      "Bone %": 21,
+      "Organ %": 0
+    },
+    {
+      "Id": 68,
+      "Food Item": "Turkey – Leg",
+      "Category": "Turkey",
+      "Meat %": 83,
+      "Bone %": 17,
+      "Organ %": 0
+    },
+    {
+      "Id": 69,
+      "Food Item": "Turkey – Neck",
+      "Category": "Turkey",
+      "Meat %": 58,
+      "Bone %": 42,
+      "Organ %": 0
+    },
+    {
+      "Id": 70,
+      "Food Item": "Turkey – Thigh",
+      "Category": "Turkey",
+      "Meat %": 85,
+      "Bone %": 15,
+      "Organ %": 0
+    },
+    {
+      "Id": 71,
+      "Food Item": "Turkey – Whole",
+      "Category": "Turkey",
+      "Meat %": 61,
+      "Bone %": 39,
+      "Organ %": 0
+    },
+    {
+      "Id": 72,
+      "Food Item": "Turkey – Wing",
+      "Category": "Turkey",
+      "Meat %": 67,
+      "Bone %": 33,
+      "Organ %": 0
+    },
+    {
+      "Id": 73,
+      "Food Item": "Unbalanced Premade 75/5/20",
+      "Category": "N/A",
+      "Meat %": 75,
+      "Bone %": 5,
+      "Organ %": 20
+    },
+    {
+      "Id": 74,
+      "Food Item": "Unbalanced Premade 50/12/35",
+      "Category": "N/A",
+      "Meat %": 50,
+      "Bone %": 15,
+      "Organ %": 35
+    },
+    {
+      "Id": 75,
+      "Food Item": "Unbalanced Premade 50/20/30",
+      "Category": "N/A",
+      "Meat %": 50,
+      "Bone %": 20,
+      "Organ %": 30
+    },
+    {
+      "Id": 76,
+      "Food Item": "Unbalanced Premade 94/3/3",
+      "Category": "N/A",
+      "Meat %": 94,
+      "Bone %": 3,
+      "Organ %": 3
+    },
+    {
+      "Id": 77,
+      "Food Item": "Unbalanced Premade 85/10/5",
+      "Category": "N/A",
+      "Meat %": 85,
+      "Bone %": 10,
+      "Organ %": 5
+    },
+    {
+      "Id": 78,
+      "Food Item": "Veal – Heart",
+      "Category": "Veal",
+      "Meat %": 100,
+      "Bone %": 0,
+      "Organ %": 0
+    },
+    {
+      "Id": 79,
+      "Food Item": "Veal – Kidney",
+      "Category": "Veal",
+      "Meat %": 0,
+      "Bone %": 0,
+      "Organ %": 100
+    }
+  ]
